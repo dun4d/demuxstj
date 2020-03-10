@@ -24,7 +24,7 @@ The header features the FourCC of STAV (ST Microelectronics Audio Video). The he
 A rough layout of the file format is below.
 
 byte          function
-0-3           FourCC STAV
+0-3           FourCC STAV\n
 4 -5          01 - Format version, only one exsists.
 6 - 14        Unknown
 15 - 16       Video Width (byte 15 * 256 + byte 16)
