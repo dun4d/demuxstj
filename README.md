@@ -4,6 +4,7 @@ http://pdf.dzsc.com/74-/STV0674-100TQFP_1134827.pdf
 This chip is obsolete, but between 2004 and 2006 it was used in a series of “eDVR 5 in 1” USB cameras. Known devices include:
 
 eDVR 5-in 1
+
 ST Labs 5 in 1
 Verbatim Store N'Go eDVR 5 in 1
 Sunrich Technology's USB 5 in 1 eDVR
@@ -24,7 +25,7 @@ The header features the FourCC of STAV (ST Microelectronics Audio Video). The he
 A rough layout of the file format is below.
 
 byte          function
-0-3           FourCC STAV\n
+0-3           FourCC STAV
 4 -5          01 - Format version, only one exsists.
 6 - 14        Unknown
 15 - 16       Video Width (byte 15 * 256 + byte 16)
