@@ -1,4 +1,5 @@
 STJ is a video file format created by STMicroelectronics around 2004. It is produced by devices based around the STV0674 chip.
+
 http://pdf.dzsc.com/74-/STV0674-100TQFP_1134827.pdf
 
 This chip is obsolete, but between 2004 and 2006 it was used in a series of “eDVR 5 in 1” USB cameras. Known devices include:
@@ -18,7 +19,8 @@ Octave Multipod
 
 Sahara 5 in 1 Flash Memory
 
-.STJ is not designed to be played but just stored.
+
+STJ is not designed to be played but just stored.
 
 Inside the file is an MJPEG stream peppered with u8 raw audio at either 8000, 11025 or 22050 khz. Generally video was shot at 320x240 and 30 or 15 FPS. 
 
