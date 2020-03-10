@@ -42,3 +42,5 @@ byte          function
 Demuxstj is a small command line util to extract the data in the STJ file and provide an MJPEG and WAV file to be muxed by FFmpeg. It’ll provide you with an FFMpeg command to proceed.
 
 Hopefully this’ll help anyone who has any remaining STJ files convert them to a format that works.
+
+If anyone has any STJ files they are willing to share and test the program out with, please let me know.
