@@ -1,4 +1,5 @@
 // demuxstj - version 0.1 - March 2020
+// GCC command to creat: gcc -o demuxstj -O3 demuxstj_0.1.c
 
 #include <stdio.h>
 #include <stdlib.h>
